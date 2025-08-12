@@ -1,3 +1,6 @@
+
+
+
 import java.util.Scanner;
 
 class Main
@@ -71,5 +74,15 @@ public class Main
 		                    
 		                    
 		
+	}
+}
+
+public class Main
+{
+	public static void main(String[] args) {
+	    String name="anbuganesh";
+	    byte[] array=name.getBytes();
+		System.out.println(array[4]);
+		System.out.println(name.hashCode());
 	}
 }
