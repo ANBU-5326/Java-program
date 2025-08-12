@@ -48,3 +48,28 @@ public class Main
 		
 	}
 }
+
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner data=new Scanner(System.in);
+	    System.out.println("Enter the string ");
+	    String a=data.nextLine();
+	    System.out.println("Enterv the 2 String");
+	    String b=data.nextLine();
+	    System.out.println(a.equalsIgnoreCase(b));
+		String result=data.nextLine();
+		int resu=data.nextInt();
+		String k="this is% my age is%";
+	    String anb=String.format(result,resu);
+	    System.out.println(anb);
+		                    
+		                    
+		                    
+		                    
+		                    
+		
+	}
+}
