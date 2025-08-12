@@ -31,3 +31,20 @@ class Main
 	    
 	}
 }
+
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner data=new Scanner(System.in);
+	    System.out.println("Enter the string ");
+	    String a=data.nextLine();
+	    System.out.println("Enter the string ");
+	    String s=data.nextLine();
+		System.out.println(a.contains(s));
+		System.out.println(a.contentEquals(s));
+
+		
+	}
+}
