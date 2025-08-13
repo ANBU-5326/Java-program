@@ -63,3 +63,13 @@ class Main{
         
     }
 }
+
+
+class Main{
+    
+    public static void main (String[]args){
+        String a="anbu";
+        System.out.println(a.replace("a","b"));
+        
+    }
+}
