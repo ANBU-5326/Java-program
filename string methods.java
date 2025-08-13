@@ -93,3 +93,14 @@ class Main{
     }
 } 
 
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner data= new Scanner(System.in);
+	    System.out.println("Enter the value of the String ");
+	    String s =data.nextLine();
+		System.out.println(s.subSequence(0,4));
+	}
+}
