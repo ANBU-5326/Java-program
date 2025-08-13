@@ -83,3 +83,13 @@ class Main{
     }
 } 
 
+
+import java.util.Scanner;
+class Main{
+    public static void main (String[]args){
+        Scanner data=new Scanner(System.in);
+        String s=data.nextLine();
+         System.out.println(s.startsWith("anbu"));
+    }
+} 
+
