@@ -48,3 +48,18 @@ public class Main
 		
 	}
 }
+
+
+import java.util.Scanner;
+
+class Main{
+    
+    public static void main (String[]args){
+        Scanner data=new Scanner(System.in);
+        String a=data.nextLine();
+        String b=data.nextLine();
+        System.out.println("anbuganesh".matches(a));
+        System.out.println(a.regionMatches(7,a,4,5));
+        
+    }
+}
