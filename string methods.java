@@ -104,3 +104,15 @@ public class Main
 		System.out.println(s.subSequence(0,4));
 	}
 }
+
+mport java.util.Scanner;
+class Main{
+    public static void main(String[]args){
+        Scanner data=new Scanner(System.in);
+        String s=data.nextLine();
+        CharSequence a=s.subSequence(0,3);
+        CharSequence b=s.subSequence(3,8);
+        System.out.println(a+" "+b);
+    }
+}
+
