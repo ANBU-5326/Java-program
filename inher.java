@@ -57,3 +57,67 @@ public class Main{
         a.sound();
     }
 }
+
+
+
+import java.util.Scanner;
+class Vehical{
+    void vehical(){
+        System.out.println("Vehical");
+    }
+}
+
+class FourWheeler extends Vehical{
+    FourWheeler(){
+        System.out.println("FourWheele");
+    }
+}
+
+class Car extends FourWheeler{
+    Car(){
+        System.out.println("Car");
+    }
+}
+
+public class Main{
+    public static void main(String[] args){
+        Car obj = new Car();
+        
+    }
+}
+
+import java.util.Scanner;
+
+class Gf {
+    Scanner data = new Scanner(System.in); 
+
+    Gf() {
+        System.out.print("Enter gf name: ");
+        String i = data.nextLine();
+        System.out.println("gf name: " + i);
+    }
+}
+
+class Mother extends Gf {
+    Mother() {
+        System.out.print("Enter mother name: ");
+        String c = data.nextLine();
+        System.out.println("mother name: " + c);
+    }
+}
+
+class Fath extends Gf {
+    Fath() {
+        System.out.print("Enter father name: ");
+        String e = data.nextLine();
+        System.out.println("father name: " + e);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Mother m = new Mother(); 
+        Fath f = new Fath();
+    }
+}
+
